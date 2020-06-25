@@ -16,3 +16,29 @@ class UI {
       this.itemID = 0;
     }
   }
+
+  function myEvents() {
+        const budgetForm = document.getElementById('budget-form');
+        const expenseForm = document.getElementById('expense-form');
+        const expenseList = document.getElementById('expense-list');
+
+        const ui = new UI();
+
+        budgetForm.addEventListener('submit', (event)=> {
+             event.preventDefault();
+        })
+
+        expenseForm.addEventListener('submit', (event)=>{
+             event.preventDefault();
+        })
+
+        expenseList.addEventListener('click', () => {
+
+        })
+
+  }
+
+  document.addEventListener('DOMContentLoaded', ()=>{
+      myEvents();
+  })
+
