@@ -135,7 +135,16 @@ class UI {
     }
 
     deleteExpense(element){
-       
+        let id = parseInt(element.dataset.id);
+        let parent = element.parentElement.parentElement.parentElement;
+        this.expenseList.removeChild(parent);
+
+        let tempList = this.itemList.filter((item)=>{
+            return item.id !== id;
+        })
+
+        this.itemList = tempList;
+        this.showBalance();
     }
   }
 
