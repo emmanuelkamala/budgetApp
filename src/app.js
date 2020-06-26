@@ -50,6 +50,20 @@ class UI {
         }
     }
 
+
+    submitExpenseForm(){
+        const expenseValue = this.expenseInput.value;
+        const amountValue = this.amountInput.value;
+
+        if (expenseValue === '' || amountValue === '' || amountValue < 0){
+             this.expenseFeedback.classList.add('showItem');
+             this.expenseFeedback.innerHTML = `<p>Values can not be empty or negative</p>`
+             setTimeout(()=>{
+                this.expenseFeedback.classList.remove('showItem');
+             }, 5000)
+        }
+    }
+
     totalExpense(){
 
     }
@@ -69,6 +83,7 @@ class UI {
 
         expenseForm.addEventListener('submit', (event)=>{
              event.preventDefault();
+             ui.submitExpenseForm();
         })
 
         expenseList.addEventListener('click', () => {
