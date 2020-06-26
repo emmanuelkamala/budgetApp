@@ -46,5 +46,5 @@ Happy coding!
 
 - Github: [@githubhandle](https://github.com/emmanuelkamala)
 - Twitter: [@twitterhandle](https://twitter.com/ejkamala)
-- Linkedin: [linkedin](https://linkedin.com/emmanuelkamala)
+- Linkedin: [linkedin](https://linkedin.com/in/emmanuelkamala)
 
