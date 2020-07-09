@@ -1,6 +1,6 @@
 # A Simple Budget App
 
-This is a simple practice project on creating a budget app, where a user can record his expenses and incomes on things 
+This is a simple practice project on creating a budget app, where a user can record one's expenses and income on things 
 that a user has used. A user can enter items that have increased his income and also items that have been used as
 expenses.
 
