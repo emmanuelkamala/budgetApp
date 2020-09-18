@@ -4,7 +4,6 @@ This is a simple practice project on creating a budget app, where a user can rec
 that a user has used. A user can enter items that have increased his income and also items that have been used as
 expenses.
 
-Additional description about the project and its features.
 
 ![screenshot](./dist/images/budget.png)
 
