@@ -25,15 +25,15 @@ expenses.
 
 Open your terminal or text editor and use next command
 
-  git clone https://github.com/emmanuelkamala/budgetApp.git
+> git clone https://github.com/emmanuelkamala/budgetApp.git
 
-  cd budgetApp
+> cd budgetApp
 
-  Run: 'npm install', to install all the dependencies
+> Run: 'npm install', to install all the dependencies
 
-  Run: 'npm run dev', to compile the files, and start localserver
+> Run: 'npm run dev', to compile the files, and start localserver
 
-  visit: localhost:8080 on the browser
+> visit: localhost:8080 on the browser
 
 After if you want to do any changes please create new branch, after changes open pull request.
 Happy coding! 
@@ -46,4 +46,14 @@ Happy coding!
 - Github: [@githubhandle](https://github.com/emmanuelkamala)
 - Twitter: [@twitterhandle](https://twitter.com/ejkamala)
 - Linkedin: [linkedin](https://linkedin.com/in/emmanuelkamala)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
